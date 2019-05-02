@@ -1,0 +1,7 @@
+language: ruby
+deploy:
+  provider: rubygems
+  gem: fastlane-plugin-copy
+  api_key: $RUBYGEMS_API_KEY
+  on:
+    branch: master

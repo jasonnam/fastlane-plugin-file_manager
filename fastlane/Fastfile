@@ -1,0 +1,6 @@
+lane :test do
+  copy(
+    source: "test.rb",
+    destination: "lib"
+  )
+end
