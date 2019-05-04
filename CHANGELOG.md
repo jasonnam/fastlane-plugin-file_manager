@@ -8,4 +8,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - copy action
 
-[0.1.0]: https://github.com/jasonnam/fastlane-plugin-copy/releases/tag/0.1.0
+[0.1.0]: https://github.com/jasonnam/fastlane-plugin-file_manager/releases/tag/0.1.0

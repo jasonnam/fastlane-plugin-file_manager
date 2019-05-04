@@ -1,18 +1,18 @@
-# fastlane-plugin-copy
+# fastlane-plugin-file_manager
 
-[![fastlane plugin badge](https://rawcdn.githack.com/fastlane/fastlane/master/fastlane/assets/plugin-badge.svg)](https://rubygems.org/gems/fastlane-plugin-copy)
-[![gem version](https://img.shields.io/gem/v/fastlane-plugin-copy.svg)](https://rubygems.org/gems/fastlane-plugin-copy)
-[![travis-ci build status](https://travis-ci.com/jasonnam/fastlane-plugin-copy.svg?branch=master)](https://travis-ci.com/jasonnam/fastlane-plugin-copy)
+[![fastlane plugin badge](https://rawcdn.githack.com/fastlane/fastlane/master/fastlane/assets/plugin-badge.svg)](https://rubygems.org/gems/fastlane-plugin-file_manager)
+[![gem version](https://img.shields.io/gem/v/fastlane-plugin-file_manager.svg)](https://rubygems.org/gems/fastlane-plugin-file_manager)
+[![travis-ci build status](https://travis-ci.com/jasonnam/fastlane-plugin-file_manager.svg?branch=master)](https://travis-ci.com/jasonnam/fastlane-plugin-file_manager)
 
 ## Getting Started
 
-This project is a [_fastlane_](https://github.com/fastlane/fastlane) plugin. To get started with `fastlane-plugin-copy`, add it to your project by running:
+This project is a [_fastlane_](https://github.com/fastlane/fastlane) plugin. To get started with `fastlane-plugin-file_manager`, add it to your project by running:
 
 ```bash
-fastlane add_plugin copy
+fastlane add_plugin file_manager
 ```
 
-## About fastlane-plugin-copy
+## About fastlane-plugin-file_manager
 
 Copy file.
 
