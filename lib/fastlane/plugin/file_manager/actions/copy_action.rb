@@ -1,11 +1,10 @@
 require "fastlane/action"
-require_relative "../helper/copy_helper"
 
 module Fastlane
   module Actions
     class CopyAction < Action
       def self.run(params)
-        Helper::CopyHelper.copy(params[:source], params[:destination])
+        Actions.sh("cp", params[:source], params[:destination])
       end
 
       def self.description
