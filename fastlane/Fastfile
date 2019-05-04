@@ -1,6 +1,4 @@
 lane :test do
-  copy(
-    source: "test.rb",
-    destination: "lib"
-  )
+  copy_files(source: "test.rb", destination: "lib")
+  remove_files(path: "test.rb")
 end

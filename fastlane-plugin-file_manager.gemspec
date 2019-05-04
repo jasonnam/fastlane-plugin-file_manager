@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.author        = "Jason Nam"
   spec.email         = "contact@jasonnam.com"
 
-  spec.summary       = "Copy file"
+  spec.summary       = "Copy and remove files"
   spec.homepage      = "https://github.com/jasonnam/fastlane-plugin-file_manager"
   spec.license       = "MIT"
 
