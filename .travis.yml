@@ -1,7 +1,10 @@
 language: ruby
 deploy:
   provider: rubygems
-  gem: fastlane-plugin-copy
-  api_key: $RUBYGEMS_API_KEY
+  gem: fastlane-plugin-file_manager
+  api_key: "$RUBYGEMS_API_KEY"
   on:
     branch: master
+env:
+  global:
+    secure: qH91MR+kiPtyWcPnbr3ikc4gbFJrnTH/dYbBG/Lj6xyiGwsW3TlGToYBOCjyuaCOJ+wtbL8r+T6t7XXp4EMqtPweRxnp0flNF+l1OKiWRJ9oiZ9G6UrJ6S2xnBfyMhLHpSQAmOHUcZjwjuy9Wb0rTryUoAPi+Wa73nYUSigNyBSOCTcPGw55fYEyOPDUe6aAyNCoxoytX5rhW3bbNxd6rwFdfGyf8AzAA0d++nsaxHO+qBP0JHELTZh7CRDGvueQ8APw/UtMLsTLwcHnMBeJPtcxF1Ln9+3V8tXL1C7wjxsjimRbMGK77HBGbD178frWMMXrLN/bTdFiXRAqjvAq95wPe6bQXJx39TRGAY9C1V/KXjAjH0MHq3YzRRB0xZ0N03s5GiI2YI5f4umdWlrCPfuqcKzdkiPdzuTtoCXvF3rt8OMcCyVwfQqBIJsH6PzAP3rzmf0CLJYmQxKvRXVraL2IKFKPi2RfVUJbaq2szOzQ6lQIum1h5RIy7LZLLk364tlzQsyV579jQgwteOBeaBTmm2r8wi0fizgrgFSfEPWL4wzwu89pCn88SOC7rlwCnCy7mftWT0Z3gOCP+zuF/QXoAI8BII+8wVVCy+EUDQ+Z40+J73CZa844kW1Ck7WqHUa2N2FQcScHDKpjaJklx1b5MmdZS5wovKNoO12YB0s=
