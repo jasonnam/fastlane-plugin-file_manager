@@ -14,7 +14,7 @@ fastlane add_plugin file_manager
 
 ## About fastlane-plugin-file_manager
 
-Copy and remove files.
+Copy, move and remove files.
 
 ## Example
 
@@ -23,6 +23,7 @@ Check out the [example `Fastfile`](fastlane/Fastfile) to see how to use this plu
 ```ruby
 lane :test do
   copy_files(source: "test.rb", destination: "lib")
+  move_files(source: "test.rb", destination: "lib")
   remove_files(path: "test.rb")
 end
 ```
